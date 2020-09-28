@@ -1,0 +1,31 @@
+.editing_container {
+    border-radius: 5vh;
+    position: fixed;
+    width: 50vw;
+    height: 20vh;
+    left: 30vw;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.95;
+    display: flex;
+    flex-direction: column;
+}
+
+.editing_container input{
+    border-radius: 1vh;
+    margin: 1vh 0 1vh 4vw;
+    width: 80%;
+    height: 4vh;
+    font-size: 2vh;
+}
+
+.Edit_btn {
+    border-radius: 15%;
+    background-color: gray;
+    margin-bottom: 1vh;
+    width: 4vh;
+    padding: 1vh;
+    font-size: 2vh;
+    text-align: center;
+    justify-self: center;
+    align-self: center; 
+}

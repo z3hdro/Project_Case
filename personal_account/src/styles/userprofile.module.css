@@ -1,0 +1,150 @@
+.container {
+    background-image: url('https://vignette.wikia.nocookie.net/spongebob/images/c/c1/Opposite_Day_102.png/revision/latest/scale-to-width-down/340?cb=20190818162709');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .photoAttach {
+    display: none;
+  }
+  
+  .chat_header {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    flex: 0;
+    background-color: rgb(255, 241, 241);
+    height: 6vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .backimg {
+    flex: 1;
+  }
+  
+  .backimg img {
+    padding-left: 2vh;
+    width: 4.5vh;
+  }
+  
+  .header_chat {
+    padding-left: 5vh;
+    font-weight: 500;
+    font-size: 3.5vh;
+    font-family: Segoe UI, sans-serif;
+    flex: 3;
+  }
+  
+  .saveBtn {
+    flex: 1;
+  }
+  
+  .saveBtn img {
+    width: 5vh;
+  }
+  
+  .userpage {
+    height: 100%;
+    width: 100%;
+    margin-top: 8vh;
+    padding: 4vh 4vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .fullname {
+    flex: 1;
+    background-color: rgb(206, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 6vh;
+    border-radius: 1vh;
+    border-bottom: 0.5vh solid rgb(99, 99, 99);
+  }
+  
+  .username {
+    flex: 1;
+    background-color: rgb(206, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 6vh;
+    border-radius: 1vh;
+    border-bottom: 0.5vh solid rgb(99, 99, 99);
+  }
+
+  .sex_date_of_birth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 6vh;
+  }
+
+  .sex{
+    flex: 1;
+    border-radius: 1vh;
+    background-color: rgb(206, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2vh;
+    border-bottom: 0.5vh solid rgb(99, 99, 99);
+  }
+
+  .birthday {
+    flex: 1;
+    border-radius: 1vh;
+    background-color: rgb(206, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 0.5vh solid rgb(99, 99, 99);
+  }
+
+  .number {
+    flex: 3;
+    background-color: rgb(206, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1vh;
+    margin-bottom: 6vh;
+    border-bottom: 0.5vh solid rgb(99, 99, 99);
+  }
+  
+  .adress {
+    flex: 3;
+    background-color: rgb(206, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1vh;
+    margin-bottom: 5vh;
+    border-bottom: 0.5vh solid rgb(99, 99, 99);
+  }
+  
+  .textholdernames {
+    color: rgb(110, 110, 110);
+    margin: 0;
+    padding: 1vh;
+    font-family: Segoe UI, sans-serif;
+    font-size: 2.5vh;
+  }
+  
+  .textholder {
+    background: rgb(206, 204, 204);
+    width: 80%;
+    padding: 1vh;
+    font-family: Segoe UI, sans-serif;
+    font-size: 2.5vh;
+    border: 0;
+    border-radius: 1vh;
+  }

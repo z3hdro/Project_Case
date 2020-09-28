@@ -1,0 +1,41 @@
+.loginPageContainer {
+  background-image: url('https://vignette.wikia.nocookie.net/spongebob/images/c/c1/Opposite_Day_102.png/revision/latest/scale-to-width-down/340?cb=20190818162709');
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container p{
+  margin: 2vh 15%;
+  font-size: 2.5vh;
+}
+
+.container input {
+  border-radius: 5vh;
+  width: 70%;
+  padding: 12px 20px;
+  margin: 1vh auto;
+  display: block;
+  border: 0.5vh solid rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.Login {
+  display: block;
+  width: 6vh;
+  background-color: rgb(170, 170, 170);
+  padding: 2vh 6vh;
+  margin: 3vh auto;
+  font-size: 2.2vh;
+  border: none;
+  border-radius: 3vh;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.container button:hover:focus {
+  opacity: 0.3  ;
+}

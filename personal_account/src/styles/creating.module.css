@@ -1,0 +1,33 @@
+.create_contact {
+    border-radius: 5vh;
+    position: fixed;
+    height: 4vh;
+    width: 60%;
+    bottom: 20vh;
+    left: 20%;
+    font-size: 3vh;
+    font-family: Segoe UI, sans-serif;
+    padding: 2vh 0 2vh 4vh;
+    opacity: 0.9;
+}
+
+.create_contact:hover:focus {
+    opacity: 1;
+}
+
+.create_number {
+    border-radius: 5vh;
+    position: fixed;
+    height: 4vh;
+    width: 60%;
+    bottom: 6vh;
+    left: 20%;
+    font-size: 3vh;
+    font-family: Segoe UI, sans-serif;
+    padding: 2vh 0 2vh 4vh;
+    opacity: 0.9;
+}
+
+.create_number:hover:focus {
+    opacity: 1;
+}
